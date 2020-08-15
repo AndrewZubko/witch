@@ -1,3 +1,5 @@
+package com.AndrewZubko.Witch;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -36,7 +38,7 @@ public class Deck {
 
     @Override
     public String toString() {
-        return "Deck{" +
+        return "com.AndrewZubko.Witch.Deck{" +
                 "deck=" + deck +
                 '}';
     }

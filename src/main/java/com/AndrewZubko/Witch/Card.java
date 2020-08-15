@@ -1,3 +1,5 @@
+package com.AndrewZubko.Witch;
+
 import java.util.ArrayList;
 
 public class Card {

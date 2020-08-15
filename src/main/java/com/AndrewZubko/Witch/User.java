@@ -1,5 +1,6 @@
+package com.AndrewZubko.Witch;
+
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -9,7 +10,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "com.AndrewZubko.Witch.User{" +
                 "name='" + name + '\'' +
                 ", userCards=" + userCards +
                 '}';

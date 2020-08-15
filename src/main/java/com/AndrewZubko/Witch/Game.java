@@ -1,3 +1,5 @@
+package com.AndrewZubko.Witch;
+
 import java.io.IOException;
 import java.util.*;
 
@@ -9,7 +11,7 @@ public class Game {
     private ArrayList<User> userList = new ArrayList<User>();
     private static Scanner in = new Scanner(System.in);
     private Deck deck;
-//    public static final Logger logger = LoggerFactory.getLogger(Game.class);
+//    public static final Logger logger = LoggerFactory.getLogger(com.AndrewZubko.Witch.Game.class);
 
     public Game(int countCards, int countUsers) {
 //        logger.trace("это конструктор");
