@@ -1,12 +1,15 @@
 package com.AndrewZubko.witch;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.io.IOException;
 import java.util.*;
 
 
 
 public class Game {
-    private static final Log
+    private static final Logger LOG = LoggerFactory.getLogger(Game.class);
 
     private ArrayList<User> userList = new ArrayList<User>();
     private static Scanner in = new Scanner(System.in);
