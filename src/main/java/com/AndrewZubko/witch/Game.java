@@ -6,6 +6,8 @@ import java.util.*;
 
 
 public class Game {
+    private static final Log
+
     private ArrayList<User> userList = new ArrayList<User>();
     private static Scanner in = new Scanner(System.in);
     private Deck deck;
