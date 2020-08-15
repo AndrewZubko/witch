@@ -1,6 +1,4 @@
-package com.AndrewZubko.Witch;
-
-import java.util.ArrayList;
+package com.AndrewZubko.witch;
 
 public class Card {
     /*
