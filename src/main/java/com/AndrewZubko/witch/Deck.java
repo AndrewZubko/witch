@@ -1,4 +1,4 @@
-package com.AndrewZubko.Witch;
+package com.AndrewZubko.witch;
 
 import java.util.ArrayList;
 import java.util.Collections;
