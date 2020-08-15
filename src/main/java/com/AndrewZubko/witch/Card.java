@@ -1,7 +1,7 @@
 package com.AndrewZubko.witch;
 
 public class Card {
-    /*
+    /**
     2663 - крест
     2660 - пика
     2666 - бубна

@@ -3,18 +3,14 @@ package com.AndrewZubko.witch;
 import java.io.IOException;
 import java.util.*;
 
-//import org.slf4j.Logger;
-//import org.slf4j.LoggerFactory;
-//import org.w3c.dom.ls.LSOutput;
+
 
 public class Game {
     private ArrayList<User> userList = new ArrayList<User>();
     private static Scanner in = new Scanner(System.in);
     private Deck deck;
-//    public static final Logger logger = LoggerFactory.getLogger(com.AndrewZubko.Witch.Game.class);
 
     public Game(int countCards, int countUsers) {
-//        logger.trace("это конструктор");
         deck = new Deck(countCards);
         userList = addUsersInList(countUsers);
     }
